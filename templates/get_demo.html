@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <!--<h1>{{name}}</h1>-->
+</head>
+<body>
+
+<img src="/shot_once" alt="" id="imgid">
+<script>
+    setInterval(function(){
+        document.getElementById('imgid').src='/shot_once?'+ Math.random()
+        console.log('----')
+    }, 80)
+
+
+</script>
+</body>
+</html>

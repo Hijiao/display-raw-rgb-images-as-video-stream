@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <script src="//cdn.bootcss.com/socket.io/1.7.3/socket.io.js"></script>
+    <script>
+       socket = io.connect('http://' + document.domain + ':' + location.port + '/chat');
+        socket.on('image',function(data){
+            var img = document.getElementById("_image_id")
+            img.src = data.msg;
+        });
+    </script>
+</head>
+<body>
+    <div id="data"></div>
+<img id="_image_id">
+
+</body>
+</html>
