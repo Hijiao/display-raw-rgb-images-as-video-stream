@@ -7,8 +7,8 @@
 * 可以使用opencv读取摄像头
 
 ## 使用
-   ```python3 flask_view.py```
-   http://localhost:5000/get_demo  通过http get请求来传输图片
+   ```python3 flask_view.py```  
+   http://localhost:5000/get_demo  通过http get请求来传输图片  
    http://localhost:5000/socktio_demo 通过socketio来传输图片 *推荐*
 
 
@@ -23,6 +23,6 @@
 
 
 ## usage
-   ``` python3 flask_video.py```
-   http://localhost:5000/get_demo  browser get images by HTTP/GET method
+   ``` python3 flask_video.py```  
+   http://localhost:5000/get_demo  browser get images by HTTP/GET method  
    http://localhost:5000/socktio_demo browser get images on socketio *prefered*
